@@ -1,24 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PCM-ms-mIv">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Navigation Controller-->
+        <scene sceneID="kQC-C7-lTZ">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <navigationController id="PCM-ms-mIv" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7lt-3R-dWZ">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9QJ-hi-IiC" kind="relationship" relationship="rootViewController" id="jJi-6M-pA9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bwF-ly-GuF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1372" y="242"/>
+        </scene>
+        <!--Shape View Controller-->
+        <scene sceneID="A8z-RL-gJj">
+            <objects>
+                <viewController id="SP7-FF-ro9" customClass="ShapeViewController" customModule="ImageRecognitionProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VW7-Lh-unN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="rMX-sp-IPN"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6xE-wx-mpZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-426" y="1077"/>
+        </scene>
+        <!--Color View Controller-->
+        <scene sceneID="fbo-hY-gqQ">
+            <objects>
+                <viewController id="jcS-Vx-bui" customClass="ColorViewController" customModule="ImageRecognitionProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MgE-nI-B9a">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="XHV-ka-aCc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5RQ-SW-wiO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1150" y="1076"/>
+        </scene>
+        <!--Fruit View Controller-->
+        <scene sceneID="SEa-nh-KwK">
+            <objects>
+                <viewController id="yQB-EU-8z9" customClass="FruitViewController" customModule="ImageRecognitionProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SUG-J5-SsZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="bhO-O5-enu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oXh-Tc-PoG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1081" y="-692"/>
+        </scene>
+        <!--FlowerViewController-->
+        <scene sceneID="f6s-Ih-GSA">
+            <objects>
+                <viewController id="640-9m-epD" userLabel="FlowerViewController" customClass="FlowerViewController" customModule="ImageRecognitionProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7m0-9d-8DO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="eDq-eu-jMD"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="Wbk-eH-Wfi">
+                        <barButtonItem key="backBarButtonItem" title="   " id="9ba-ZJ-okk"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aO3-4z-Q9p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="535" y="-653"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="mP8-3i-ApL">
+            <objects>
+                <viewController id="9QJ-hi-IiC" customClass="MainViewController" customModule="ImageRecognitionProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S0v-fP-8nS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EiN-kY-HMQ">
+                                <rect key="frame" x="0.0" y="64" width="187.5" height="603"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ar-33-UHW">
+                                        <rect key="frame" x="0.0" y="0.0" width="187.5" height="301.5"/>
+                                        <state key="normal" title="Fruit?"/>
+                                        <connections>
+                                            <segue destination="yQB-EU-8z9" kind="show" id="xC4-sE-O2u"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tkr-Gf-5jE">
+                                        <rect key="frame" x="0.0" y="301.5" width="187.5" height="301.5"/>
+                                        <state key="normal" title="Shape?"/>
+                                        <connections>
+                                            <segue destination="SP7-FF-ro9" kind="show" id="6IT-bR-kbe"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Tkr-Gf-5jE" firstAttribute="height" secondItem="8ar-33-UHW" secondAttribute="height" id="GiC-o2-lgB"/>
+                                    <constraint firstItem="Tkr-Gf-5jE" firstAttribute="width" secondItem="8ar-33-UHW" secondAttribute="width" id="N7v-rU-S5D"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RVw-vk-wdM">
+                                <rect key="frame" x="187.5" y="64" width="187.5" height="603"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgh-Ve-yha">
+                                        <rect key="frame" x="0.0" y="0.0" width="187.5" height="301.5"/>
+                                        <state key="normal" title="Flower?"/>
+                                        <connections>
+                                            <segue destination="640-9m-epD" kind="show" id="ea3-6h-H8F"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sF5-YB-z2e">
+                                        <rect key="frame" x="0.0" y="301.5" width="187.5" height="301.5"/>
+                                        <state key="normal" title="Color?"/>
+                                        <connections>
+                                            <segue destination="jcS-Vx-bui" kind="show" id="MF6-DA-ZPh"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="sF5-YB-z2e" firstAttribute="width" secondItem="mgh-Ve-yha" secondAttribute="width" id="Fw3-LA-d0D"/>
+                                    <constraint firstItem="sF5-YB-z2e" firstAttribute="height" secondItem="mgh-Ve-yha" secondAttribute="height" id="jTp-k4-Ylw"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HV0-V3-fK4" firstAttribute="bottom" secondItem="EiN-kY-HMQ" secondAttribute="bottom" id="I9a-40-8PI"/>
+                            <constraint firstItem="EiN-kY-HMQ" firstAttribute="top" secondItem="HV0-V3-fK4" secondAttribute="top" id="Q2E-Ta-kPm"/>
+                            <constraint firstItem="HV0-V3-fK4" firstAttribute="trailing" secondItem="RVw-vk-wdM" secondAttribute="trailing" id="QjQ-ix-PnX"/>
+                            <constraint firstItem="RVw-vk-wdM" firstAttribute="height" secondItem="EiN-kY-HMQ" secondAttribute="height" id="XCq-5R-8N2"/>
+                            <constraint firstItem="RVw-vk-wdM" firstAttribute="width" secondItem="EiN-kY-HMQ" secondAttribute="width" id="XFV-1l-T6U"/>
+                            <constraint firstItem="HV0-V3-fK4" firstAttribute="bottom" secondItem="RVw-vk-wdM" secondAttribute="bottom" id="Y1h-6i-bEE"/>
+                            <constraint firstItem="RVw-vk-wdM" firstAttribute="leading" secondItem="EiN-kY-HMQ" secondAttribute="trailing" id="boh-TO-bX2"/>
+                            <constraint firstItem="EiN-kY-HMQ" firstAttribute="leading" secondItem="HV0-V3-fK4" secondAttribute="leading" id="ePh-Cl-iRe"/>
+                            <constraint firstItem="RVw-vk-wdM" firstAttribute="top" secondItem="HV0-V3-fK4" secondAttribute="top" id="sqh-2T-s7a"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HV0-V3-fK4"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="71o-cc-q9W"/>
+                    <connections>
+                        <outlet property="identifyColorButton" destination="sF5-YB-z2e" id="Gvn-Gb-slI"/>
+                        <outlet property="identifyFlowerButton" destination="mgh-Ve-yha" id="3DZ-T5-hd0"/>
+                        <outlet property="identifyFruitButton" destination="8ar-33-UHW" id="A31-RG-rsV"/>
+                        <outlet property="identifyShapeButton" destination="Tkr-Gf-5jE" id="JWJ-iz-5PY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="76y-eZ-rK5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-257" y="242"/>
         </scene>
     </scenes>
 </document>
