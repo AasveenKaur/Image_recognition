@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		C9B224BE210D0A93005B0CE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B224BD210D0A93005B0CE9 /* AppDelegate.swift */; };
-		C9B224C0210D0A93005B0CE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B224BF210D0A93005B0CE9 /* ViewController.swift */; };
+		C9B224C0210D0A93005B0CE9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B224BF210D0A93005B0CE9 /* MainViewController.swift */; };
 		C9B224C3210D0A93005B0CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B224C1210D0A93005B0CE9 /* Main.storyboard */; };
 		C9B224C5210D0A95005B0CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B224C4210D0A95005B0CE9 /* Assets.xcassets */; };
 		C9B224C8210D0A95005B0CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B224C6210D0A95005B0CE9 /* LaunchScreen.storyboard */; };
 		C9B224D3210D0A95005B0CE9 /* ImageRecognitionProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B224D2210D0A95005B0CE9 /* ImageRecognitionProjectTests.swift */; };
 		C9B224DE210D0A95005B0CE9 /* ImageRecognitionProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B224DD210D0A95005B0CE9 /* ImageRecognitionProjectUITests.swift */; };
+		C9B224EC210D1134005B0CE9 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B224EB210D1134005B0CE9 /* ThemeManager.swift */; };
+		C9B224EE210D1B8B005B0CE9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B224ED210D1B8B005B0CE9 /* Constants.swift */; };
+		C9B224F3210D1CFB005B0CE9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9B224F1210D1CFB005B0CE9 /* Localizable.strings */; };
+		C9B224F5210D2703005B0CE9 /* FruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B224F4210D2703005B0CE9 /* FruitViewController.swift */; };
+		C9B224F8210D272F005B0CE9 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B224F7210D272F005B0CE9 /* ColorViewController.swift */; };
+		C9B224FA210D274E005B0CE9 /* ShapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B224F9210D274E005B0CE9 /* ShapeViewController.swift */; };
+		C9B224FC210D275A005B0CE9 /* FlowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B224FB210D275A005B0CE9 /* FlowerViewController.swift */; };
+		C9B22501210D37DA005B0CE9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B22500210D37DA005B0CE9 /* BaseViewController.swift */; };
+		C9B22504210D5840005B0CE9 /* FruitDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C9B22503210D5840005B0CE9 /* FruitDetector.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,7 @@
 /* Begin PBXFileReference section */
 		C9B224BA210D0A93005B0CE9 /* ImageRecognitionProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRecognitionProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B224BD210D0A93005B0CE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C9B224BF210D0A93005B0CE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9B224BF210D0A93005B0CE9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C9B224C2210D0A93005B0CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9B224C4210D0A95005B0CE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9B224C7210D0A95005B0CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,15 @@
 		C9B224D9210D0A95005B0CE9 /* ImageRecognitionProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRecognitionProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B224DD210D0A95005B0CE9 /* ImageRecognitionProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognitionProjectUITests.swift; sourceTree = "<group>"; };
 		C9B224DF210D0A95005B0CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B224EB210D1134005B0CE9 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		C9B224ED210D1B8B005B0CE9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C9B224F2210D1CFB005B0CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = ImageRecognitionProject/Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C9B224F4210D2703005B0CE9 /* FruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitViewController.swift; sourceTree = "<group>"; };
+		C9B224F7210D272F005B0CE9 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		C9B224F9210D274E005B0CE9 /* ShapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeViewController.swift; sourceTree = "<group>"; };
+		C9B224FB210D275A005B0CE9 /* FlowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerViewController.swift; sourceTree = "<group>"; };
+		C9B22500210D37DA005B0CE9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C9B22503210D5840005B0CE9 /* FruitDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FruitDetector.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +115,15 @@
 		C9B224BC210D0A93005B0CE9 /* ImageRecognitionProject */ = {
 			isa = PBXGroup;
 			children = (
+				C9B22502210D582C005B0CE9 /* ML Models */,
+				C9B224F6210D270A005B0CE9 /* View Controllers */,
 				C9B224BD210D0A93005B0CE9 /* AppDelegate.swift */,
-				C9B224BF210D0A93005B0CE9 /* ViewController.swift */,
 				C9B224C1210D0A93005B0CE9 /* Main.storyboard */,
 				C9B224C4210D0A95005B0CE9 /* Assets.xcassets */,
 				C9B224C6210D0A95005B0CE9 /* LaunchScreen.storyboard */,
 				C9B224C9210D0A95005B0CE9 /* Info.plist */,
+				C9B224EB210D1134005B0CE9 /* ThemeManager.swift */,
+				C9B224ED210D1B8B005B0CE9 /* Constants.swift */,
 			);
 			path = ImageRecognitionProject;
 			sourceTree = "<group>";
@@ -121,8 +142,30 @@
 			children = (
 				C9B224DD210D0A95005B0CE9 /* ImageRecognitionProjectUITests.swift */,
 				C9B224DF210D0A95005B0CE9 /* Info.plist */,
+				C9B224F1210D1CFB005B0CE9 /* Localizable.strings */,
 			);
 			path = ImageRecognitionProjectUITests;
+			sourceTree = "<group>";
+		};
+		C9B224F6210D270A005B0CE9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9B224F4210D2703005B0CE9 /* FruitViewController.swift */,
+				C9B224F7210D272F005B0CE9 /* ColorViewController.swift */,
+				C9B224F9210D274E005B0CE9 /* ShapeViewController.swift */,
+				C9B224FB210D275A005B0CE9 /* FlowerViewController.swift */,
+				C9B224BF210D0A93005B0CE9 /* MainViewController.swift */,
+				C9B22500210D37DA005B0CE9 /* BaseViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C9B22502210D582C005B0CE9 /* ML Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9B22503210D5840005B0CE9 /* FruitDetector.mlmodel */,
+			);
+			path = "ML Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +274,7 @@
 			files = (
 				C9B224C8210D0A95005B0CE9 /* LaunchScreen.storyboard in Resources */,
 				C9B224C5210D0A95005B0CE9 /* Assets.xcassets in Resources */,
+				C9B224F3210D1CFB005B0CE9 /* Localizable.strings in Resources */,
 				C9B224C3210D0A93005B0CE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +300,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9B224C0210D0A93005B0CE9 /* ViewController.swift in Sources */,
+				C9B224C0210D0A93005B0CE9 /* MainViewController.swift in Sources */,
+				C9B224F5210D2703005B0CE9 /* FruitViewController.swift in Sources */,
 				C9B224BE210D0A93005B0CE9 /* AppDelegate.swift in Sources */,
+				C9B224FC210D275A005B0CE9 /* FlowerViewController.swift in Sources */,
+				C9B224EC210D1134005B0CE9 /* ThemeManager.swift in Sources */,
+				C9B22501210D37DA005B0CE9 /* BaseViewController.swift in Sources */,
+				C9B224FA210D274E005B0CE9 /* ShapeViewController.swift in Sources */,
+				C9B224F8210D272F005B0CE9 /* ColorViewController.swift in Sources */,
+				C9B224EE210D1B8B005B0CE9 /* Constants.swift in Sources */,
+				C9B22504210D5840005B0CE9 /* FruitDetector.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +359,14 @@
 				C9B224C7210D0A95005B0CE9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C9B224F1210D1CFB005B0CE9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B224F2210D1CFB005B0CE9 /* Base */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -363,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -417,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -440,7 +500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Aasveen.ImageRecognitionProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,7 +518,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Aasveen.ImageRecognitionProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

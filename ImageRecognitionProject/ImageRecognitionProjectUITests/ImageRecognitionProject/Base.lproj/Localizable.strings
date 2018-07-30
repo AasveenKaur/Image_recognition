@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  ImageRecognitionProject
+
+  Created by aasveen on 7/28/18.
+  Copyright © 2018 Aasveen. All rights reserved.
+*/
+
+"main_screen_title" = "Identify";
+"flower_screen_title" = "Which Flower is it?";
+"color_screen_title" = "Which color is it?";
+"shape_screen_title" = "Which shape is it?";
+"fruit_screen_title" = "Which fruit is it?";
