@@ -15,7 +15,11 @@ class FlowerViewController: BaseViewController {
         self.title = NSLocalizedString("flower_screen_title", comment: "")
         // Do any additional setup after loading the view.
     }
-
+    
+    override func viewWillAppear(_ animated: Bool) {
+        startCameraCapture()
+    }
+   
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

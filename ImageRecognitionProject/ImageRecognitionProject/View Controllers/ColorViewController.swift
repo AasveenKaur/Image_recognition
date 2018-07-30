@@ -15,6 +15,10 @@ class ColorViewController: BaseViewController {
         self.title = NSLocalizedString("color_screen_title", comment: "")
         // Do any additional setup after loading the view.
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+          startCameraCapture()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
