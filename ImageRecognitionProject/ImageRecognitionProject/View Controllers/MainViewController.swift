@@ -11,9 +11,7 @@ import UIKit
 class MainViewController: BaseViewController {
 
     @IBOutlet weak var identifyFruitButton: UIButton!
-    @IBOutlet weak var identifyShapeButton: UIButton!
-    @IBOutlet weak var identifyFlowerButton: UIButton!
-    @IBOutlet weak var identifyColorButton: UIButton!
+ 
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,20 +31,11 @@ class MainViewController: BaseViewController {
 
     //MARK: - INITIAL SETUP FUNCTIONS
     func setupButtons() {
-        identifyFruitButton.backgroundColor  = Color.fruitButtonColor.value
-        identifyShapeButton.backgroundColor  = Color.shapeButtonColor.value
-        identifyColorButton.backgroundColor  = Color.colorButtonColor.value
-        identifyFlowerButton.backgroundColor = Color.flowerButtonColor.value
-        
+        identifyFruitButton.backgroundColor  = Color.flowerButtonColor.value
         identifyFruitButton.titleLabel?.font  = myFont.fruitButtonFont.value
-        identifyShapeButton.titleLabel?.font  = myFont.shapeButtonFont.value
-        identifyColorButton.titleLabel?.font  = myFont.colorButtonFont.value
-        identifyFlowerButton.titleLabel?.font = myFont.flowerButtonFont.value
-        
         identifyFruitButton.setTitleColor(Color.beigeTextColor.value, for: UIControlState())
-        identifyShapeButton.setTitleColor(Color.darkTextColor.value, for: UIControlState())
-        identifyColorButton.setTitleColor(Color.beigeTextColor.value, for: UIControlState())
-        identifyFlowerButton.setTitleColor(Color.darkTextColor.value, for: UIControlState())
+       
+      
         
         
         

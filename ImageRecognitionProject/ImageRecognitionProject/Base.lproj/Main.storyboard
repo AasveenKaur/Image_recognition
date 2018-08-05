@@ -97,78 +97,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EiN-kY-HMQ">
-                                <rect key="frame" x="0.0" y="64" width="187.5" height="603"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ar-33-UHW">
-                                        <rect key="frame" x="0.0" y="0.0" width="187.5" height="301.5"/>
-                                        <state key="normal" title="Fruit?"/>
-                                        <connections>
-                                            <segue destination="yQB-EU-8z9" kind="show" id="xC4-sE-O2u"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tkr-Gf-5jE">
-                                        <rect key="frame" x="0.0" y="301.5" width="187.5" height="301.5"/>
-                                        <state key="normal" title="Shape?"/>
-                                        <connections>
-                                            <segue destination="SP7-FF-ro9" kind="show" id="6IT-bR-kbe"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ar-33-UHW">
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
                                 <constraints>
-                                    <constraint firstItem="Tkr-Gf-5jE" firstAttribute="height" secondItem="8ar-33-UHW" secondAttribute="height" id="GiC-o2-lgB"/>
-                                    <constraint firstItem="Tkr-Gf-5jE" firstAttribute="width" secondItem="8ar-33-UHW" secondAttribute="width" id="N7v-rU-S5D"/>
+                                    <constraint firstAttribute="height" constant="200" id="Sec-cx-M9Q"/>
+                                    <constraint firstAttribute="width" constant="200" id="W0h-K2-ZnQ"/>
                                 </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RVw-vk-wdM">
-                                <rect key="frame" x="187.5" y="64" width="187.5" height="603"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgh-Ve-yha">
-                                        <rect key="frame" x="0.0" y="0.0" width="187.5" height="301.5"/>
-                                        <state key="normal" title="Flower?"/>
-                                        <connections>
-                                            <segue destination="640-9m-epD" kind="show" id="ea3-6h-H8F"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sF5-YB-z2e">
-                                        <rect key="frame" x="0.0" y="301.5" width="187.5" height="301.5"/>
-                                        <state key="normal" title="Color?"/>
-                                        <connections>
-                                            <segue destination="jcS-Vx-bui" kind="show" id="MF6-DA-ZPh"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="sF5-YB-z2e" firstAttribute="width" secondItem="mgh-Ve-yha" secondAttribute="width" id="Fw3-LA-d0D"/>
-                                    <constraint firstItem="sF5-YB-z2e" firstAttribute="height" secondItem="mgh-Ve-yha" secondAttribute="height" id="jTp-k4-Ylw"/>
-                                </constraints>
-                            </stackView>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Let's guess the fruit name ?">
+                                            <attributes>
+                                                <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="17" name="ChalkboardSE-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="100"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="yQB-EU-8z9" kind="show" id="xC4-sE-O2u"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.24313725489999999" green="0.30980392159999998" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="HV0-V3-fK4" firstAttribute="bottom" secondItem="EiN-kY-HMQ" secondAttribute="bottom" id="I9a-40-8PI"/>
-                            <constraint firstItem="EiN-kY-HMQ" firstAttribute="top" secondItem="HV0-V3-fK4" secondAttribute="top" id="Q2E-Ta-kPm"/>
-                            <constraint firstItem="HV0-V3-fK4" firstAttribute="trailing" secondItem="RVw-vk-wdM" secondAttribute="trailing" id="QjQ-ix-PnX"/>
-                            <constraint firstItem="RVw-vk-wdM" firstAttribute="height" secondItem="EiN-kY-HMQ" secondAttribute="height" id="XCq-5R-8N2"/>
-                            <constraint firstItem="RVw-vk-wdM" firstAttribute="width" secondItem="EiN-kY-HMQ" secondAttribute="width" id="XFV-1l-T6U"/>
-                            <constraint firstItem="HV0-V3-fK4" firstAttribute="bottom" secondItem="RVw-vk-wdM" secondAttribute="bottom" id="Y1h-6i-bEE"/>
-                            <constraint firstItem="RVw-vk-wdM" firstAttribute="leading" secondItem="EiN-kY-HMQ" secondAttribute="trailing" id="boh-TO-bX2"/>
-                            <constraint firstItem="EiN-kY-HMQ" firstAttribute="leading" secondItem="HV0-V3-fK4" secondAttribute="leading" id="ePh-Cl-iRe"/>
-                            <constraint firstItem="RVw-vk-wdM" firstAttribute="top" secondItem="HV0-V3-fK4" secondAttribute="top" id="sqh-2T-s7a"/>
+                            <constraint firstItem="8ar-33-UHW" firstAttribute="centerX" secondItem="S0v-fP-8nS" secondAttribute="centerX" id="QL7-hh-bMe"/>
+                            <constraint firstItem="8ar-33-UHW" firstAttribute="centerY" secondItem="S0v-fP-8nS" secondAttribute="centerY" id="XmN-7T-MvB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HV0-V3-fK4"/>
                     </view>
                     <navigationItem key="navigationItem" id="71o-cc-q9W"/>
                     <connections>
-                        <outlet property="identifyColorButton" destination="sF5-YB-z2e" id="Gvn-Gb-slI"/>
-                        <outlet property="identifyFlowerButton" destination="mgh-Ve-yha" id="3DZ-T5-hd0"/>
                         <outlet property="identifyFruitButton" destination="8ar-33-UHW" id="A31-RG-rsV"/>
-                        <outlet property="identifyShapeButton" destination="Tkr-Gf-5jE" id="JWJ-iz-5PY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="76y-eZ-rK5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-257" y="242"/>
+            <point key="canvasLocation" x="-258.39999999999998" y="241.52923538230885"/>
         </scene>
     </scenes>
 </document>

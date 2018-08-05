@@ -18,11 +18,11 @@
 		C9B224EE210D1B8B005B0CE9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B224ED210D1B8B005B0CE9 /* Constants.swift */; };
 		C9B224F3210D1CFB005B0CE9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9B224F1210D1CFB005B0CE9 /* Localizable.strings */; };
 		C9B224F5210D2703005B0CE9 /* FruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B224F4210D2703005B0CE9 /* FruitViewController.swift */; };
-		C9B224F8210D272F005B0CE9 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B224F7210D272F005B0CE9 /* ColorViewController.swift */; };
-		C9B224FA210D274E005B0CE9 /* ShapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B224F9210D274E005B0CE9 /* ShapeViewController.swift */; };
-		C9B224FC210D275A005B0CE9 /* FlowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B224FB210D275A005B0CE9 /* FlowerViewController.swift */; };
 		C9B22501210D37DA005B0CE9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B22500210D37DA005B0CE9 /* BaseViewController.swift */; };
-		C9B22504210D5840005B0CE9 /* FruitDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C9B22503210D5840005B0CE9 /* FruitDetector.mlmodel */; };
+		C9B22504210D5840005B0CE9 /* fruits_classifier_Iteration1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C9B22503210D5840005B0CE9 /* fruits_classifier_Iteration1.mlmodel */; };
+		C9B22506211799FE005B0CE9 /* fruits_classifier_Iteration2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C9B22505211799FD005B0CE9 /* fruits_classifier_Iteration2.mlmodel */; };
+		C9B225082117AA53005B0CE9 /* fruits_classifier_Iteration3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C9B225072117AA53005B0CE9 /* fruits_classifier_Iteration3.mlmodel */; };
+		C9B2250A2117BC48005B0CE9 /* fruits_classifier_Iteration4.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C9B225092117BC47005B0CE9 /* fruits_classifier_Iteration4.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,11 +60,11 @@
 		C9B224ED210D1B8B005B0CE9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C9B224F2210D1CFB005B0CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = ImageRecognitionProject/Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C9B224F4210D2703005B0CE9 /* FruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitViewController.swift; sourceTree = "<group>"; };
-		C9B224F7210D272F005B0CE9 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
-		C9B224F9210D274E005B0CE9 /* ShapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeViewController.swift; sourceTree = "<group>"; };
-		C9B224FB210D275A005B0CE9 /* FlowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerViewController.swift; sourceTree = "<group>"; };
 		C9B22500210D37DA005B0CE9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		C9B22503210D5840005B0CE9 /* FruitDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FruitDetector.mlmodel; sourceTree = "<group>"; };
+		C9B22503210D5840005B0CE9 /* fruits_classifier_Iteration1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = fruits_classifier_Iteration1.mlmodel; sourceTree = "<group>"; };
+		C9B22505211799FD005B0CE9 /* fruits_classifier_Iteration2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = fruits_classifier_Iteration2.mlmodel; sourceTree = "<group>"; };
+		C9B225072117AA53005B0CE9 /* fruits_classifier_Iteration3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = fruits_classifier_Iteration3.mlmodel; sourceTree = "<group>"; };
+		C9B225092117BC47005B0CE9 /* fruits_classifier_Iteration4.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = fruits_classifier_Iteration4.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,9 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				C9B224F4210D2703005B0CE9 /* FruitViewController.swift */,
-				C9B224F7210D272F005B0CE9 /* ColorViewController.swift */,
-				C9B224F9210D274E005B0CE9 /* ShapeViewController.swift */,
-				C9B224FB210D275A005B0CE9 /* FlowerViewController.swift */,
 				C9B224BF210D0A93005B0CE9 /* MainViewController.swift */,
 				C9B22500210D37DA005B0CE9 /* BaseViewController.swift */,
 			);
@@ -163,7 +160,10 @@
 		C9B22502210D582C005B0CE9 /* ML Models */ = {
 			isa = PBXGroup;
 			children = (
-				C9B22503210D5840005B0CE9 /* FruitDetector.mlmodel */,
+				C9B22505211799FD005B0CE9 /* fruits_classifier_Iteration2.mlmodel */,
+				C9B225092117BC47005B0CE9 /* fruits_classifier_Iteration4.mlmodel */,
+				C9B22503210D5840005B0CE9 /* fruits_classifier_Iteration1.mlmodel */,
+				C9B225072117AA53005B0CE9 /* fruits_classifier_Iteration3.mlmodel */,
 			);
 			path = "ML Models";
 			sourceTree = "<group>";
@@ -301,15 +301,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9B224C0210D0A93005B0CE9 /* MainViewController.swift in Sources */,
+				C9B2250A2117BC48005B0CE9 /* fruits_classifier_Iteration4.mlmodel in Sources */,
 				C9B224F5210D2703005B0CE9 /* FruitViewController.swift in Sources */,
 				C9B224BE210D0A93005B0CE9 /* AppDelegate.swift in Sources */,
-				C9B224FC210D275A005B0CE9 /* FlowerViewController.swift in Sources */,
 				C9B224EC210D1134005B0CE9 /* ThemeManager.swift in Sources */,
+				C9B225082117AA53005B0CE9 /* fruits_classifier_Iteration3.mlmodel in Sources */,
+				C9B22506211799FE005B0CE9 /* fruits_classifier_Iteration2.mlmodel in Sources */,
 				C9B22501210D37DA005B0CE9 /* BaseViewController.swift in Sources */,
-				C9B224FA210D274E005B0CE9 /* ShapeViewController.swift in Sources */,
-				C9B224F8210D272F005B0CE9 /* ColorViewController.swift in Sources */,
 				C9B224EE210D1B8B005B0CE9 /* Constants.swift in Sources */,
-				C9B22504210D5840005B0CE9 /* FruitDetector.mlmodel in Sources */,
+				C9B22504210D5840005B0CE9 /* fruits_classifier_Iteration1.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
