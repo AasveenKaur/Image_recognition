@@ -45,7 +45,7 @@ class FruitViewController: BaseViewController {
         
         // !!!Important
         // make sure to go download the models at https://developer.apple.com/machine-learning/ scroll to the bottom
-        guard let model = try? VNCoreMLModel(for: fruits_classifier_Iteration4().model) else { return }
+        guard let model = try? VNCoreMLModel(for: fruits_classifier_Iteration3().model) else { return }
         let request = VNCoreMLRequest(model: model) { (finishedReq, err) in
             
             //perhaps check the err
